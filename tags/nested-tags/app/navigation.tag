@@ -11,8 +11,8 @@
   <div>
     <h1>Click on a link!</h1>
     <ul>
-      <navigation-item ref-title={'Oval!'} ref-onclick={tag.handleLinkClick('Oval!')} />
-      <navigation-item ref-title={'Pineapple!'} ref-onclick={tag.handleLinkClick('Pineapple!')} />
+      <navigation-item prop-title='Oval!' prop-onclick={tag.handleLinkClick('Oval!')} />
+      <navigation-item prop-title='Pineapple!' prop-onclick={tag.handleLinkClick('Pineapple!')} />
     </ul>
   </div>
 </navigation>
