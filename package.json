@@ -1,0 +1,37 @@
+{
+  "name": "organic-oval-examples",
+  "version": "0.0.0",
+  "description": "Example usages of the organic-oval frontend framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camplight/organic-oval-examples.git"
+  },
+  "keywords": [
+    "organic",
+    "oval",
+    "organic-oval",
+    "organic-oval-examples",
+    "oval-examples"
+  ],
+  "author": "Camplight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camplight/organic-oval-examples/issues"
+  },
+  "homepage": "https://github.com/camplight/organic-oval-examples#readme",
+  "dependencies": {
+    "organic-oval": "camplight/organic-oval"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  }
+}
