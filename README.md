@@ -12,4 +12,4 @@ If you just want to see what organic-oval is [**tag examples**](./tags) are for 
 
 ## Apps
 
-If you want to go further and see more `organic-oval` code - check out our apps [here](./apps)
+If you want to go further and see more `organic-oval` code - check out our [apps examples](./apps)
