@@ -1,0 +1,8 @@
+{
+  "name": "organic-oval-examples-tag",
+  "version": "0.0.0",
+  "description": "Tag example of the organic-oval usage",
+  "scripts": {
+    "build": "../../node_modules/.bin/webpack ./app/index.js ./build.js --config ./webpack.config.js && echo \"\n\nAll done! Now open index.html in your browser\""
+  }
+}
