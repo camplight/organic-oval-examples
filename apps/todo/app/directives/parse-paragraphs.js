@@ -1,13 +1,13 @@
 module.exports = function (tag) {
-  return function (createElement, tagName, props, ...children) {
-    if (props && props['parse-paragraphs']) {
+  return {
+    preCreate: function (createElement, tagName, props, ...children) {
       if (!children || !children[0]) {
-        return false
+        return
       }
       children = children[0].split('\n').map(function (text) {
-        return createElement('p', props, text)
+        return createElement('p', null, text)
       })
-      return createElement(tagName, props, children)
+      return children
     }
   }
 }

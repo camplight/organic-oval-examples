@@ -1,9 +1,9 @@
 <app>
   <script>
-    tag.injectDirectives([
-      require('./directive.js').alert,
-      require('./directive.js').parseParagraphs,
-    ])
+    tag.injectDirectives({
+      'alert': require('./directive.js').alert,
+      'parse-paragraphs': require('./directive.js').parseParagraphs,
+    })
     tag.textWithNewLines = 'Hello\nthere\n!'
   </script>
   <div>
