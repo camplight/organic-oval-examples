@@ -3,7 +3,6 @@
     require('./todo-list')
     require('./todo-form')
     var Todos = require('./models').Todos
-    tag.keepParentTag = false
     tag.todos = new Todos([])
     tag.addTodo = function (name) {
       tag.todos.addTodo(name)

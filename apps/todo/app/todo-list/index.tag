@@ -42,7 +42,6 @@
 
     <each todo, index in {tag.props.todos.items}>
       <todo-item
-        id={'todo' + index}
         prop-todo={todo}
         prop-toggleCompletedTodo={tag.toggleCompletedTodo(index)}
         prop-removeTodo={tag.removeTodo(index)} />

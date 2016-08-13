@@ -1,11 +1,10 @@
 <todo-item>
   <script>
-    tag.keepParentTag = false
     tag.injectDirectives({
       'parse-paragraphs': require('../directives/parse-paragraphs')
     })
   </script>
-  <div id={tag.attributes.id} class={tag.props.todo.completed ? 'panel panel-success text-success' : 'panel panel-default'}>
+  <div class={tag.props.todo.completed ? 'panel panel-success text-success' : 'panel panel-default'}>
     <div class="panel-body">
       <h3>{tag.props.todo.name}</h3>
       <div parse-paragraphs>

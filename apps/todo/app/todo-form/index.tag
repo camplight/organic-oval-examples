@@ -8,7 +8,6 @@
       })
       tag.refs.todoName.value = ''
       tag.refs.todoDescription.value = ''
-      tag.update()
     }
   </script>
   <div>

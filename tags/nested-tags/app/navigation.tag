@@ -11,8 +11,12 @@
   <div>
     <h1>Click on a link!</h1>
     <ul>
-      <navigation-item prop-title='Oval!' prop-onclick={tag.handleLinkClick('Oval!')} />
-      <navigation-item prop-title='Pineapple!' prop-onclick={tag.handleLinkClick('Pineapple!')} />
+      <li>
+        <navigation-item prop-title='Oval!' prop-onclick={tag.handleLinkClick('Oval!')} />
+      </li>
+      <li>
+        <navigation-item prop-title='Pineapple!' prop-onclick={tag.handleLinkClick('Pineapple!')} />
+      </li>
     </ul>
   </div>
 </navigation>
