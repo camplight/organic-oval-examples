@@ -76,6 +76,12 @@ module.exports = {
 }
 ```
 
+You will also need to install these dependencies:
+
+```
+$ npm install webpack babel-loader babel-plugin-transform-es2015-arrow-functions babel-plugin-transform-react-jsx babel-preset-es2015
+```
+
 ## Oval Tags Syntax
 
 [example](./tag)
@@ -121,4 +127,11 @@ module.exports = {
     ]
   }
 }
+```
+
+
+You will also need to install these dependencies:
+
+```
+$ npm install webpack babel-loader babel-plugin-transform-es2015-arrow-functions babel-plugin-transform-react-jsx babel-preset-es2015
 ```
