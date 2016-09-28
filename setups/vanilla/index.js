@@ -16,4 +16,4 @@ class Component {
 }
 
 oval.registerTag('app', Component)
-oval.mountAll('*', document)
+oval.mountAll(document.body)
