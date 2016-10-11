@@ -2,7 +2,7 @@ module.exports.alert = function (tag) {
   return {
     preCreate: function (createElement, tagName, props, ...children) {
       props['onclick'] = function () {
-        alert(props['alert'])
+        alert(props['alert-text'])
       }
     }
   }

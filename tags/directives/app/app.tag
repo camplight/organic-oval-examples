@@ -8,9 +8,9 @@
   </script>
   <div>
     <ul>
-      <li><a href='#' alert='home'>Home</a></li>
-      <li><a href='#' alert='about'>About</a></li>
-      <li><a href='#' alert='oval is great!'>Oval is great!</a></li>
+      <li><a href='#' alert alert-text='home'>Home</a></li>
+      <li><a href='#' alert alert-text='about'>About</a></li>
+      <li><a href='#' alert alert-text='oval is great!'>Oval is great!</a></li>
     </ul>
     <hr />
     <div style="text-align: center" parse-paragraphs>
